@@ -21,7 +21,8 @@ generateNoti(
 msg= can be every thing,
 status= alert or success,
 dur= can be any number,
-);```
+);
+```
 
 That's it
 
