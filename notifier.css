@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.notifier {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 20%;
+    border-radius: 5px;
+    transition: all 200ms;
+}
+.notifier * {
+    transition: all 200ms;
+}
+.notifier .notification {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0px ;
+    animation-name: notification;
+    animation-duration: 5000ms;
+    animation-iteration-count: 1;
+    animation-delay: 0;
+    max-height: auto;
+}
+.alert {
+    background-color: rgb(191, 51, 51);
+    color: white;
+}
+.success {
+    background-color: rgb(50, 164, 94);
+    color: white;
+}
+
+@keyframes notification{
+    0%{
+        transform: translate(500px);
+    }
+    10%{
+        transform: translate(0px);
+    }
+    20%{
+        transform: translate(0px);
+    }
+    30%{
+        transform: translate(0px);
+    }
+    40%{
+        transform: translate(0px);
+    }
+    50%{
+        transform: translate(0px);
+    }    
+    60%{
+        transform: translate(0px);
+    }
+    70%{
+        transform: translate(0px);
+    }
+    80%{
+        transform: translate(0px);
+    }
+    90%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(500px);
+    }
+}
