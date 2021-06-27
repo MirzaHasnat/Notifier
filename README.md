@@ -18,16 +18,10 @@ Call function ```generateNoti(msg="Notifier",status="success",dur=5000)``` in yo
 where:
 ```
 generateNoti(
-
 msg= can be every thing,
-
 status= alert or success,
-
 dur= can be any number,
-
-)
-
-```
+);```
 
 That's it
 
