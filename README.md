@@ -13,7 +13,21 @@ Import the files on your application:
 2.CSS File
 ```<link rel="stylesheet" href="./notifier.css" />```
 
-Call function ```generateNoti(msg="Notifier",status="success",duration=5000)``` in your application.
+Call function ```generateNoti(msg="Notifier",status="success",dur=5000)``` in your application.
+
+where:
+```
+generateNoti(
+
+msg= can be every thing,
+
+status= alert or success,
+
+dur= can be any number,
+
+)
+
+```
 
 That's it
 
